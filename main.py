@@ -1,4 +1,7 @@
-
+"""
+Midterm Practical Exam — Movie Collection Manager
+Student: [Javier, Arthur L.]
+"""
 
 movies = []
 
@@ -11,16 +14,23 @@ def display_menu():
     print("3. Count watched vs unwatched")
     print("4. Find a movie")
     print("5. Exit")
-    print ("Choose an option")
+    print("Choose an option")
       # return the user's choice
-
     pass    
 
 
 def add_movie(movie_list):
     # ask for title, director, and status
-    ["Gagamboy-Carlos Paras- watched", "Panday-Diomes Danny- unwatched", "The Last Avenger-Daniel Montes", ]
+    title = ["Gagamboy"]
+    print(title)
+
+    director =["Danny Diomes"]
+    print(director)
+
+    status =["Watched"]
+    print(status)
     # build the movie string
+
     # add it to the list
     pass
 
