@@ -15,20 +15,29 @@ def display_menu():
     print("4. Find a movie")
     print("5. Exit")
     print("Choose an option")
+
       # return the user's choice
+      
+    choice = input("Choose what to do [1-5]: ")
+    if choice in ['1', '2', '3', '4', '5']:
+            return choice
+    else:
+            print("Invalid Choice")
+    
     pass    
 
 
 def add_movie(movie_list):
     # ask for title, director, and status
-    title = ["Gagamboy"]
-    print(title)
 
-    director =["Danny Diomes"]
-    print(director)
+    title = input ["Gagamboy"]
+    print("title")
+
+    director = input ["Danny Diomes"]
+    print("director")
 
     status =["Watched"]
-    print(status)
+    print("status")
     # build the movie string
 
     # add it to the list
